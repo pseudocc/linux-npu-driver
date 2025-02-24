@@ -62,3 +62,6 @@ Sessionx.vim
 !.vscode/extensions.json
 *.code-workspace
 compile_commands.json
+
+# Nix
+result
