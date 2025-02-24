@@ -102,5 +102,7 @@
 
       default = intel-npu-firmware;
     };
+
+    nixosModules.intel-npu-driver = import ./module.nix self.packages.${system};
   };
 }
